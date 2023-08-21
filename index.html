@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Closing the Data Gap</title>
+
+    <!-- Load CSS files -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="theme.css">
+
+    <!-- Load BoxIcons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+     <!-- Load JS files -->
+     <script src="script.js" type="module" defer></script>
+
+</head>
+<body>
+
+    <section id="nav">
+        <div class="logo-text"><i class='bx bxs-data'></i>Closing the Data Gap</div>
+        <div class="menu-container">
+            <div class="menu-toggle"><i class='bx bx-menu'></i></div>
+            <ul class="menu-items">
+                <li><a href="#header">Search</a></li>
+                <li><a href="#featured">Featured Programs</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#dashboard">Dashboard</a></li>
+                <li><a href="#policy">Policy Brief</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="header">
+        <div class="row">
+            <div class="container boxed">
+                <div class="description">
+                    <h1>Need assistance with something?</h1>
+                    <p>Search for government grants and programs that are best suitable for your circumstance.</p>
+                    <div class="searchbox">
+                        <input type="text" id="search-input" placeholder="Type keyword to search...">
+                        <i class="bx bx-search"></i>
+                    </div>
+                    <div id="quick-search">
+                        <button>financial</button>
+                        <button>student</button>
+                        <button>health</button>
+                        <button>seniors</button>
+                        <button>programs</button>
+                        <button>domestic violence</button>
+                        <button>visa</button>
+                        <button>families and children</button>
+                    </div>
+                </div>
+                <div class="artwork">
+                    <img src="images/splash-01.jpg" alt="">
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="search">
+        <div class="row">
+            <div class="container boxed column">
+                <div class="section-title">
+                    <h2>Search results for "<span id="search-phrase"></span>"</h2>
+                </div>
+                <ul id="search-results">
+                    <li>No results</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="featured">
+        <div class="row">
+            <div class="container boxed column">
+                <div class="section-title">
+                    <h2>Featured Programs</h2>
+                </div>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="images/bigstock-Family-Walking-On-Tropical-Bea-477974915.jpg" alt="">
+                        <div class="title"><a href="https://www.dss.gov.au/families-and-children/programs-services" target="_blank">Families and children program and services</a></div>
+                    </div>
+                    <div class="card">
+                        <img src="images/bigstock-Mortgage-Calculator-Or-Real-Es-466721069.jpg" alt="">
+                        <div class="title"><a href="https://www.dss.gov.au/our-responsibilities/housing-support/programs-services" target="_blank">Housing Support Programs</a></div>
+                    </div>
+                    <div class="card">
+                        <img src="images/bigstock-Happy-Laughing-Older-Married-C-473775961(1).jpg" alt="">
+                        <div class="title"><a href="https://www.dss.gov.au/seniors/programs-services" target="_blank">Seniors</a></div>
+                    </div>
+                    <div class="card">
+                        <img src="images/bigstock-Elderly-woman-talking-with-a-d-394609574.jpg" alt="">
+                        <div class="title"><a href="" target="_blank">Communities and Vulnerable People</a></div>
+                    </div>
+                    <div class="card">
+                        <img src="images/bigstock-Caregiver-Nurse-Take-Care-A-Se-478354681.jpg" alt="">
+                        <div class="title"><a href="" target="_blank">Disabilities and Carers Programs and Services</a></div>
+                    </div>
+                    <div class="card">
+                        <img src="images/bigstock-African-American-Ethnic-Millen-473768439.jpg" alt="">
+                        <div class="title"><a href="" target="_blank">Women's Safety Programs and Services</a></div>
+                    </div>
+                    <div class="card">
+                        <img src="images/bigstock-Woman-Holding-Smile-And-Angry--464810759.jpg" alt="">
+                        <div class="title"><a href="" target="_blank">Mental Health Programs and services</a></div>
+                    </div>
+                    <!-- <div class="card">
+                        <img src="images/bigstock-Caregiver-Nurse-Take-Care-A-Se-478354681.jpg" alt="">
+                        <div class="title">Communities and Vulnerable People </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="row">
+            <div class="container boxed column">
+                <div class="section-title">
+                    <h2>About Closing the Data Gap</h2>
+                </div>
+            </div>
+            <div class="container boxed">
+                <div class="description">
+                    <h3>Fair go for women in Australia</h3>
+                    <p>Women experience more barriers to achieving better financial outcomes than men. On every occupation group, women earn less than men. On low-income occupation groups, women make up majority of the workforce.</p>
+                    <p>Among these women, those with a specific visa stream consistently earn less than all the others. Why are there more women in these occupations? Are there visa restrictions that make some women more vulnerable than others? What are the challenges they are facing, where can we find them, and how can we best help them?</p>
+                    <!-- <a href="#" class="btn primary">Learn more</a> -->
+                </div>
+        
+                <div class="artwork">
+                    <img src="images/pay-gap-01.png" alt="">
+                </div>
+            </div>
+            <div class="container boxed">
+                <div class="description">
+                    <h3>Examining the data on gender divide</h3>
+                    <p>Our dashboard contributes to the understanding on how women's financial outcomes (income sources and amounts, superannuation) compare across geographical locations. Users can quickly focus to a local government area (LGA) of low financial outcome per female population and determine which industries are predominantly present.</p>
+                    <a href="#dashboard" class="btn primary">View Dashboard</a>
+                </div>
+        
+                <div class="artwork">
+                    <img src="images/data-gap-01.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="dashboard">
+        <div class="row">
+            <div class="container boxed column">
+                <div class="section-title">
+                    <h2>Dashboard</h2>
+                    <p>Our dashboard can highlight LGAs where to target programs to improve women’s participation in higher paid industries and improve their financial welfare.</p>
+                </div>
+            </div>
+            <div class="container boxed">
+                <iframe title="Report Section" width="100%" height="780px" src="https://app.powerbi.com/view?r=eyJrIjoiMDAyNTkzMDUtOWEyOS00MzE1LWI2YTEtMTlkNTQxMTZiMjU5IiwidCI6ImJkMDNhNzM1LTJhYTMtNGNjYS05NzIyLTJhZTQ5MjlhYjNlYyIsImMiOjEwfQ%3D%3D" frameborder="0" allowFullScreen="true"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section id="policy">
+        <div class="row">
+            <div class="container boxed column">
+                <div class="section-title">
+                    <h2>Policy Brief</h2>
+                    <p>In Australia, addressing gender disparities and challenges faced by female migrants is vital. This policy brief presents recommendations to close data gaps, refine visa processes, and enhance diversity initiatives, aiming to support the workforce and alleviate migrant pressures.</p>
+                </div>
+            </div>
+            <div class="container boxed">
+                <iframe loading="lazy" style="position: relative; width: 100%; height: 600px; max-height: 80vh; border: none; padding: 0; margin: 0; overflow: hidden;"
+      src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFsCOq4vPw&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+    </iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="row">
+            <div class="container boxed">
+                Copyright ©2023 All rights reserved.
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
