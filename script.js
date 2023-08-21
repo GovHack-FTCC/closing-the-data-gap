@@ -10,7 +10,7 @@ const searchSection = document.querySelector('#search');
 const searchResultsContainer = document.querySelector('#search-results');
 const searchResultsArray = programs || [];
 
-// clear search input;l
+// CLEAR search input;
 searchInput.value = '';
 searchResultsContainer.innerHTML = '';
 
@@ -76,20 +76,6 @@ function renderSearch(list) {
     // scroll down
     searchSection.scrollIntoView();
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // Mobile Menu
 
