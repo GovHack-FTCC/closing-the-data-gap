@@ -6,6 +6,7 @@ const searchInput = document.querySelector('#search-input');
 const searchIcon = document.querySelector('.bx-search');
 const quickSearchItems = document.querySelectorAll('#quick-search button')
 const searchPhrase = document.querySelector('#search-phrase');
+const resultsCount = document.querySelector('#results-count');
 const searchSection = document.querySelector('#search');
 const searchResultsContainer = document.querySelector('#search-results');
 const searchResultsArray = programs || [];
@@ -47,6 +48,9 @@ function searchData(phrase) {
     const filteredSearchResultsArray = searchResultsArray.filter((item) => {
         return item.title.toLowerCase().search(phrase) > -1 || item.tags.toLowerCase().search(phrase) > -1;
     })
+
+    // show results count
+    resultsCount.textContent = filteredSearchResultsArray.length;
 
     if (filteredSearchResultsArray.length > 0) {
         renderSearch(filteredSearchResultsArray);
