@@ -31,15 +31,14 @@ In preparing our dashboard, we first combined Australian Taxation Office’s (AT
 
 In the dashboard, red regions indicate LGAs of low financial outcome per female population while blue regions indicate otherwise. Slicers allow users to select specific geographical remoteness and state/territory to focus on specific LGAs of interest. Selecting an LGA in the map visuals will show the distribution of businesses by industry as a tool tip. The dashboard is also accessible from our prototype web-based support platform.
 
-In the next version of the dashboard, we intend to analyze and visualize data from the other financial years. This will allow users to view the financial outcomes of women across time. The dashboard is in: [https://ryanmacalandag.com/closing-the-gap/#dashboard](https://ryanmacalandag.com/closing-the-gap/#dashboard)
+In the next version of the dashboard, we intend to analyze and visualize data from the other financial years. This will allow users to view the financial outcomes of women across time. The dashboard is in: https://govhack-ftcc.github.io/closing-the-data-gap/#dashboard
 
 ---
 
 Policy Brief
 ============
 
-This brief presents our recommendations for closing the gaps in diversity data across all agencies, facilitating better integration and support for migrants in the workforce, and intervening with women who have provisional visa status. The policy document is in: [https://ryanmacalandag.com/closing-the-gap/#policy](https://ryanmacalandag.com/closing-the-gap/#policy
-)
+This brief presents our recommendations for closing the gaps in diversity data across all agencies, facilitating better integration and support for migrants in the workforce, and intervening with women who have provisional visa status. The policy document is in: https://govhack-ftcc.github.io/closing-the-data-gap/#policy
 
 Platform
 ========
@@ -50,5 +49,5 @@ For this delivery, we built a prototype for a web-based support platform. With t
 
 If we had more time, we would perform user research. We want to understand whether this is a real problem or not for the audience we intend to serve, understand the usage of current services and understand how best to reach them.
 
-The current version is in: [https://ryanmacalandag.com/closing-the-gap](https://ryanmacalandag.com/closing-the-gap)
+The current version is in: https://govhack-ftcc.github.io/closing-the-data-gap/
 
